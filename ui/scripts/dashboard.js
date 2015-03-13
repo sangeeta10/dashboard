@@ -9,9 +9,18 @@ angular.module('dashboard', ['ngRoute', 'widgets'])
 		.when('/:dashboardId', {
 			controller: 'DashboardCtrl',
 			templateUrl: 'templates/dashboard.html'
+		})
+		.when('/dashboard/add',{
+			controller: 'AddCtrl',
+			templateUrl: 'templates/addDashboard.html'
 		});
 })
 
+
+	.controller('AddCtrl', function($scope,$http){
+		$("body").addClass("dashboard-body-bg");
+
+	})
 .controller('MainCtrl', function($scope, $http) {
 	$("body").removeClass("dashboard-body-bg");
 	$http.get('dashboards').success(function(dashboards) {
@@ -32,6 +41,7 @@ angular.module('dashboard', ['ngRoute', 'widgets'])
 
 			$("#dash-content-id").height(dashboardSize.height);
 			$("#dash-content-id").width(dashboardSize.width);
+
 
 			if(widgetData.length != 0) {
 				var layoutManager = u.getLayoutManager("DOUBLE_HEIGHT");
@@ -58,7 +68,7 @@ angular.module('dashboard', ['ngRoute', 'widgets'])
 	});
 });
 
-var setDraggable = function(id) {
+/*var setDraggable = function(id) {
 	$("#" + id).parent().draggable({
 		revert: true,
 		opacity: 0.7,
@@ -83,7 +93,7 @@ var setDraggable = function(id) {
 		}
 	});
 };
-
+*/
 angular.module('widgets', [])
 
 .directive('widget', function() {
@@ -118,9 +128,9 @@ angular.module('widgets', [])
 					$http.get("apicall?url=" + dataUrl).success(function(data) {
 						$scope.widget.data = data;
 						$scope.widget.loaded = true;
-						if(options.draggable) {
+						/*if(options.draggable) {
 							setDraggable(id);
-						}
+						}*/
 						if(type == 'CHART') {
 							setTimeout(function() {
 								$('#pie_container').highcharts({
@@ -150,7 +160,7 @@ angular.module('widgets', [])
 								                enabled: true,
 								                formatter: function() {
 								                	return "<span style='font-weight:bold;font-size:32px;'>" + this.point.y + "</span>" + 
-								                		"<div style='width:60px; margin:0px; padding:0px; overflow:hidden; text-overflow:ellipsis; display:inline-block; font-size:11px;'>" + 
+								                		"<div style='width:60px; margin:0px; padding:0px; overflow:hidden; text-overflow:ellipsis; display:inline-block; font-size:11px;'>" +
 								                		"&nbsp;-&nbsp;" +
 								                		this.point.name + 
 								                		"</div>";

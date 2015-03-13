@@ -12,7 +12,7 @@ var DashContentUtil = function() {
 				width = index == 0 ? ((width * 2) + 16) : width;
 
 				var height = (dashboardSize.height - 36) / 2;
-				height = index == 0 ? ((height * 2) + 16) : height;
+				height = index == 0 ? ((height *2) +16) : height;
 
 				return {
 					height : height,

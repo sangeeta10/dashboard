@@ -49,4 +49,48 @@
 			</div>
 		</td>
 	</tr>
+	<tr ng-if="type == 'RTS'">
+		<td class="content-cell data">
+			<!--<span class="{{data.value == 'good'? 'success' : 'error'}}">
+				{{data.value}}
+			</span>-->
+			<img ng-if="data.value == 'good'" class="absolute-icon-tick resize" src="images/tick.png">
+			<img ng-if="data.value == 'bad'" class="absolute-icon-cross resize" src="images/cross.png">
+		</td>
+	</tr>
+	<tr ng-if="type == 'LandA'" ng-repeat="point in data.values">
+		<td class="{{$first || $middle ? 'non-last-row' : ''}} status-image">
+			<img ng-if="point.status == 'Pending' || point.status == 'Disabled' || point.status == 'Aborted'" src="images/Pending.png">
+			<img ng-if="point.status == 'Unstable'" src="images/{{point.status}}.png">
+			<img ng-if="point.status == 'Failed'" src="images/Failed.png">
+			<img ng-if="point.status == 'Success'" src="images/{{point.status}}.png">
+			<img class="blink" ng-if="point.status == 'In progress'" src="images/Pending.png">
+		</td>
+		<td class="Load_name {{$first || $middle ? 'non-last-row' : ''}}">{{point.name}}</td>
+		<td ng-if="point.failed != 0 && point.total != 0" class="Load_value {{point.status}} {{$first || $middle ? 'non-last-row' : ''}}">{{point.failed}}/{{point.total}}</td>
+		<td ng-if="point.failed == 0 && point.total == 0" class="Load_value status-grey  {{$first || $middle ? 'non-last-row' : ''}}">{{point.status}}</td>
+
+
+
+		<!--<td>
+			<img ng-if="point.val == 'Pending'" src="images/Pending.png">
+			<img ng-if="point.val == 'Unstable'" src="images/Unstable.png">
+			<img ng-if="point.val == 'Disabled'" src="images/Pending.png">
+			<img ng-if="point.val == 'Failed'" src="images/Failed.png">
+			<img ng-if="point.val == 'Aborted'" src="images/Pending.png">
+			<img ng-if="point.val == 'Success'" src="images/Success.png">
+		</td>
+		<td class="Load_value {{point.val}} {{$first || $middle ? 'non-last-row' : ''}}"> {{point.val}}</td>-->
+
+		<!--<td class="multistat-content-cell multistat-datalabel-cell data-label {{$first || $middle ? 'non-last-row' : ''}}">{{point.label}}</td>
+			<span class="success">
+				{{point.name}}
+			</span>
+			<span class="error">
+				{{point.val}}
+			</span>
+			<img ng-if="data.value == 'good'" class="absolute-icon-tick resize" src="images/tick.png">
+			<img ng-if="data.value == 'bad'" class="absolute-icon-cross resize" src="images/cross.png">-->
+
+	</tr>
 </table>

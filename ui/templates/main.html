@@ -8,24 +8,31 @@
 	<tr>
 		<th>#</th>
 		<th>Title</th>
-		<th>&nbsp;</th>
+		<th>
+			<a href="/dashboard/#/dashboard/add">
+				<span class="glyphicon glyphicon-plus" title="Add a Dashboard">
+				</span>
+			</a>
+
+		</th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr ng-repeat="dashboard in dashboards" ng-mouseenter="dashboard.show = true" ng-mouseleave="dashboard.show = undefined">
 		<td class="dashboard-index-cell">{{$index + 1}}.</td>
 		<td class="dashboard-title-cell">
-			<a style="cursor:pointer;" href="/dashboard/#/{{dashboard.id}}" target="_blank">{{dashboard.title}}</a>
+			<a style="cursor:pointer;text-transform: uppercase;" href="/dashboard/#/{{dashboard.id}}" target="_blank">{{dashboard.title}}</a>
 		</td>
 		<td>
 			<span ng-if="dashboard.show">
-				<span class="glyphicon glyphicon-edit"></span>
-				&nbsp;&nbsp;
-				<span class="glyphicon glyphicon-trash"></span>
+				<a style="cursor:pointer;" href="/delete/{{dashboard.title}}/{{dashboard.id}}">
+				<span class="glyphicon glyphicon-trash">
+
+				</span>
+				</a>
 			</span>
 		</td>
 	</tr>
 	</tbody>
 </table>
 </div>
-<!--  -->

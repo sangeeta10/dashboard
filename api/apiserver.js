@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 
 var links = require('./apiserverlib/links');
-
+//var rts = require('./apiserverlib/rts');
 var logger = links.getLogger();
 
 var app = express();
@@ -26,5 +26,9 @@ app.get('/metrics/staticviolations', links.staticviolations);
 app.get('/metrics/defectdistribution', links.defectdistribution);
 app.get('/metrics/defectstatistics', links.defectstatistics);
 app.get('/metrics/teststatistics', links.teststatistics);
+app.get('/metrics/risktoship', links.risktoship);
 
 app.listen(8082);
+
+
+

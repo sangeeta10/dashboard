@@ -1,0 +1,96 @@
+[2015-03-12 16:26:59.777] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:29:10.880] [DEBUG] apiserver - GET /metrics/defectcount?product=sm
+[2015-03-13 10:29:11.265] [DEBUG] apiserver - GET /metrics/staticviolations?product=sm
+[2015-03-13 10:29:11.268] [DEBUG] apiserver - GET /metrics/teststatistics?product=sm
+[2015-03-13 10:29:11.269] [DEBUG] apiserver - GET /metrics/cibuild?product=sm
+[2015-03-13 10:29:11.269] [DEBUG] apiserver - GET /metrics/risktoship?product=sm
+[2015-03-13 10:29:11.274] [DEBUG] apiserver - GET /metrics/linecoverage?product=sm
+[2015-03-13 10:29:12.933] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:29:12.943] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:29:12.954] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:29:12.982] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:29:13.376] [DEBUG] apiserver - GET /metrics/defectstatistics?product=sm
+[2015-03-13 10:29:14.054] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:29:14.921] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:29:15.937] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:29:16.004] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:29:18.035] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:29:19.069] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:29:21.850] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:29:24.250] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:33:52.877] [DEBUG] apiserver - GET /metrics/defectdistribution?product=cvp
+[2015-03-13 10:33:52.879] [DEBUG] apiserver - GET /metrics/risktoship?product=cvp
+[2015-03-13 10:33:52.881] [DEBUG] apiserver - GET /metrics/staticviolations?product=cvp
+[2015-03-13 10:33:52.886] [DEBUG] apiserver - GET /metrics/linecoverage?product=cvp
+[2015-03-13 10:33:52.891] [DEBUG] apiserver - GET /metrics/defectcount?product=cvp
+[2015-03-13 10:33:52.897] [DEBUG] apiserver - GET /metrics/defectstatistics?product=cvp
+[2015-03-13 10:33:54.272] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:33:54.343] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:33:54.352] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:33:54.478] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:33:54.637] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:33:56.486] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:33:56.549] [DEBUG] apiserver - GET /metrics/cibuild?product=cvp
+[2015-03-13 10:33:56.650] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:33:57.453] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:33:58.954] [DEBUG] apiserver - GET /metrics/defectdistribution?product=uccx
+[2015-03-13 10:33:58.956] [DEBUG] apiserver - GET /metrics/cibuild?product=uccx
+[2015-03-13 10:33:58.969] [DEBUG] apiserver - GET /metrics/linecoverage?product=uccx
+[2015-03-13 10:33:59.190] [DEBUG] apiserver - GET /metrics/defectcount?product=uccx
+[2015-03-13 10:33:59.594] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:33:59.675] [DEBUG] apiserver - GET /metrics/risktoship?product=uccx
+[2015-03-13 10:33:59.935] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:33:59.944] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:00.101] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:01.218] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:01.278] [DEBUG] apiserver - GET /metrics/defectstatistics?product=uccx
+[2015-03-13 10:34:02.197] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:02.543] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:02.748] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:02.810] [DEBUG] apiserver - GET /metrics/staticviolations?product=uccx
+[2015-03-13 10:34:03.399] [DEBUG] apiserver - GET /metrics/defectdistribution?product=cuic
+[2015-03-13 10:34:03.657] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:03.789] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:04.235] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:04.502] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:04.554] [DEBUG] apiserver - GET /metrics/risktoship?product=cuic
+[2015-03-13 10:34:05.236] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:05.278] [DEBUG] apiserver - GET /metrics/defectstatistics?product=cuic
+[2015-03-13 10:34:05.842] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:06.197] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:06.539] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:06.583] [DEBUG] apiserver - GET /metrics/linecoverage?product=cuic
+[2015-03-13 10:34:07.153] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:07.253] [DEBUG] apiserver - GET /metrics/cibuild?product=cuic
+[2015-03-13 10:34:07.626] [DEBUG] apiserver - GET /metrics/staticviolations?product=cuic
+[2015-03-13 10:34:07.818] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:07.873] [DEBUG] apiserver - GET /metrics/defectcount?product=cuic
+[2015-03-13 10:34:08.337] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:08.511] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:10.258] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:10.633] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:10.995] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:11.767] [DEBUG] apiserver - GET /metrics/defectdistribution?product=vb
+[2015-03-13 10:34:11.770] [DEBUG] apiserver - GET /metrics/defectcount?product=vb
+[2015-03-13 10:34:12.558] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:12.616] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:12.908] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:12.957] [DEBUG] apiserver - GET /metrics/risktoship?product=vb
+[2015-03-13 10:34:13.073] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:13.137] [DEBUG] apiserver - GET /metrics/staticviolations?product=vb
+[2015-03-13 10:34:13.980] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:14.345] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:14.720] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:14.759] [DEBUG] apiserver - GET /metrics/linecoverage?product=vb
+[2015-03-13 10:34:15.190] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:15.231] [DEBUG] apiserver - GET /metrics/cibuild?product=vb
+[2015-03-13 10:34:15.276] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:15.409] [DEBUG] apiserver - GET /metrics/defectstatistics?product=vb
+[2015-03-13 10:34:15.479] [DEBUG] apiserver - opening sonar
+[2015-03-13 10:34:16.199] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:17.792] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:17.957] [DEBUG] apiserver - opened enotify9-1?  success
+[2015-03-13 10:34:20.917] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:21.059] [DEBUG] apiserver - opened sonar?  success
+[2015-03-13 10:34:23.646] [DEBUG] apiserver - opening enotify9-1
+[2015-03-13 10:34:26.275] [DEBUG] apiserver - opened enotify9-1?  success
